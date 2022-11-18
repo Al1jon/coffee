@@ -1,0 +1,42 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+   
+
+    ul {
+        display: flex;
+        gap: 32px;
+        li {
+            list-style: none;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            color: #83888F;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover {
+                color: #333D4B;
+                ;
+            }
+        }
+        
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    h3 {
+        color: var(--color);
+        font-weight: 900;
+        font-size: 30px;
+        font-family: 'Fraunces';
+    }
+}
+
+

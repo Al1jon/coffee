@@ -1,0 +1,21 @@
+.hero {
+    background-image: url(../images/Object.png);
+    padding: 137px 0 137px 85px;
+    border-radius: 10px;
+
+    .hero__title {
+        width: 445px;
+        color: white;
+
+        h1 {
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            font-family: 'Fraunces';
+            margin-bottom: 24px;
+        }
+        p{
+            line-height: 26px;
+        }
+    }
+}

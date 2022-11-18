@@ -1,0 +1,47 @@
+.headquarters {
+    margin: 168px 0;
+    padding-left:85px ;
+
+    h3 {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        color: #83888F;
+        margin-bottom: 72px;
+        
+        
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 145px;
+
+        li {
+            &:nth-child(3) {
+                margin-left: 50px;
+            }
+
+            h2 {
+                font-family: 'Fraunces';
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+                margin: 46px 0 24px;
+            }
+
+            ol {
+                color: #333D4B;
+                list-style: none;
+                line-height: 35px;
+
+                li {
+                    &:nth-child(3) {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.quality {
+    padding: 100px 0 176px 85px;
+    color: white;
+    position: relative;
+    background-color:  #2C343E;
+    border-radius: 10px;
+    .quality__item {
+        width: 540px;
+    h2 {
+        font-weight: 900;
+        font-size: 40px;
+        font-family: 'Fraunces';
+        margin-bottom: 32px;
+    }
+    p {
+        line-height: 26px;
+        opacity: 0.8;
+    }}
+    img{
+        position: absolute;
+        top: -76px;
+        right: 60px;
+        border-radius: 8px;
+    }
+}

@@ -1,0 +1,27 @@
+.commit {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    justify-content: center;
+    margin: 168px 0 240px;
+ 
+    img{
+        border-radius: 8px;
+    }
+
+    .commit__item {
+        width: 540px;
+     
+        h2 {
+            font-weight: 900;
+            font-size: 40px;
+            font-family: 'Fraunces';
+            margin-bottom: 32px;
+        }
+
+        p {
+            line-height: 26px;
+            opacity: 0.8;
+        }
+    }
+}
